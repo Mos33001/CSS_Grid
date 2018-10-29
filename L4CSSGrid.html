@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>L4Grid</title>
+	<style type="text/css">
+			*{
+				box-sizing:border-box;
+			}
+			body{
+				background: black;
+			}
+			.container{
+				background:#a39c9c;
+				min-height:100vh;
+				display: grid;
+				grid-template-columns: 1fr 94px 180px 180px 94px 1fr ;
+				grid-template-rows:5fr 7fr 5fr;
+				grid-template-areas:
+				 	"p1 p1 p1 p2 p2 p2"
+				 	"p3 p4 p4 p5 p5 p6"
+				 	"p7 p7 p8 p8 p9 p9";
+				grid-gap: 5px;
+				
+			}
+
+			.item {
+				background:#706c6c;
+				min-width:10px;
+				min-height:10px;
+			}
+			#photo1{
+				grid-area: p1;
+				background:url(http://mythicalarchive.com/wp-content/uploads/2013/05/sky_horse_by_rhads-d46dw0g1-650x341.jpg);
+				background-size:cover;
+				background-position:center;
+				
+				
+			}
+			#photo2{
+				grid-area: p2;
+				background:url(https://giftdeejung.files.wordpress.com/2015/11/24.jpg);
+				background-size:cover;
+				background-position:center;
+
+			}
+			#photo3{
+				grid-area: p3;
+				background:url(http://cdn.playbuzz.com/cdn/e91cc31d-aae0-47d1-aa51-a7010d1e4519/49b87870-bcec-4f11-95a2-92339151478d_560_420.jpg);
+				background-size:cover;
+				background-position:right;
+			}
+			#photo4{
+				grid-area: p4;
+				background:url(https://cdn.mos.cms.futurecdn.net/671938d139ac9414e5fe059c11c90967-1200-80.jpg);
+				background-size:cover;
+				background-position:center;
+			}
+			#photo5{
+				grid-area: p5;
+				background:url(http://img01.deviantart.net/e45e/i/2012/095/7/7/griffin_dawn_by_azany-d4v2mgk.jpg);
+				background-size:cover;
+				background-position:center;
+			}
+			#photo6{
+				grid-area: p6;
+				background:url(https://i.imgur.com/UwGR3qd.jpg);
+				background-size:cover;
+				background-position:center;
+
+			}
+			#photo7{
+				grid-area: p7;
+				background:url(https://i.imgur.com/Vy9DDzG.jpg);
+				background-size:cover;
+				background-position:center;
+			}	
+			#photo8{
+				grid-area: p8;
+				background:url(https://2.bp.blogspot.com/-eN3W4WtlOvg/WIF-JQuCAvI/AAAAAAAACYI/fvxSS77OlR41RkullsmSp6nPThTuQHBqACLcB/s1600/hippocampus.jpg);
+				background-size:cover;
+				background-position:left;
+			}
+			#photo9{
+				grid-area: p9;
+				background:url(http://grupoempresafalagan.com/wp-content/uploads/2018/05/preCriaturas-m%C3%ADticas-de-Jap%C3%B3n-40-fotos.jpg);
+				background-size:cover;
+				background-position:center;
+			}
+		</style>
+</head>
+	<body>
+		<div class="container">
+			<div class="item" id="photo1">
+			</div>
+
+			<div class="item" id="photo2">
+			</div>
+
+			<div class="item" id="photo3">
+			</div>
+
+			<div class="item" id="photo4">
+			</div>
+
+			<div class="item" id="photo5">
+			</div>
+
+			<div class="item" id="photo6">
+			</div>
+
+			<div class="item" id="photo7">
+			</div>
+
+			<div class="item" id="photo8">
+			</div>
+
+			<div class="item" id="photo9">
+			</div>
+		</div>
+	</body>
+</html>
